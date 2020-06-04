@@ -25,6 +25,7 @@ body {
 }
 
 .navbar-brand {
+  color: #000;
   font-size: 1.8em;
   font-weight: 700;
   padding-left: 0;
@@ -36,14 +37,6 @@ body {
 
 .nav > a > div {
   font-weight: 400;
-}
-
-.brand-name {
-  color: #000;
-}
-
-.brand-surname {
-  color: #000;
 }
 
 .icon {
@@ -116,11 +109,43 @@ main {
 }
 
 @media (prefers-color-scheme: dark) {
-  img {
-    opacity: .75;
-    transition: opacity .5s ease-in-out;
+  body {
+    background-color: #121212;
+    color: #DFDFDF;
+    font-weight: 300;
   }
-  img:hover {
-    opacity: 1;
+
+  .navbar-default {
+    background-color: #1F1F1F;
+    border-color: #121212;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #DFDFDF;
+    font-weight: 500;
+  }
+  
+  .nav > a {
+    color: #DFDFDF;
+  }
+
+  .nav > a > div {
+    font-weight: 300;
+  }
+
+  main .jumbotron {
+    background-color: #121212;
+  }
+
+  main a {
+    color: #C38FFF;
+  }
+
+  .footer {
+    background-color: #1F1F1F;
+  }
+
+  .footer a {
+    color: #C38FFF;
   }
 }
