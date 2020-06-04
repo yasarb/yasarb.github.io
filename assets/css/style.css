@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  margin-top: 1em;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: 700;
+  padding-left: 0;
+}
+
+.nav {
+  font-size: 1.4em;
+}
+
+.nav > a > div {
+  font-weight: 400;
+}
+
+.brand-name {
+  color: #000;
+}
+
+.brand-surname {
+  color: #000;
+}
+
+.icon {
+  display: inline-flex;
+  width: 1em;
+  height: 1em;
+  background-size: cover;
+  align-self: center;
+  filter: invert(53%) sepia(0%) saturate(1166%) hue-rotate(188deg) brightness(88%) contrast(102%);
+}
+
+.icon-blog {
+  background-image: url(../img/ic/hashnode.svg);
+}
+
+#nav-item-blog:hover,
+#nav-item-blog:focus {
+  filter: invert(35%) sepia(59%) saturate(6025%) hue-rotate(220deg) brightness(100%) contrast(102%);
+}
+
+.icon-github {
+  background-image: url(../img/ic/github.svg);
+}
+
+#nav-item-github:hover,
+#nav-item-github:focus {
+  filter: invert(0%) sepia(0%) saturate(7463%) hue-rotate(338deg) brightness(89%) contrast(111%);
+}
+
+.icon-twitter {
+  background-image: url(../img/ic/twitter.svg);
+}
+
+#nav-item-twitter:hover,
+#nav-item-twitter:focus {
+  filter: invert(70%) sepia(74%) saturate(5112%) hue-rotate(176deg) brightness(99%) contrast(92%);
+}
+
+.icon-linkedin {
+  background-image: url(../img/ic/linkedin.svg);
+}
+
+#nav-item-linkedin:hover,
+#nav-item-linkedin:focus {
+  filter: invert(30%) sepia(93%) saturate(1023%) hue-rotate(172deg) brightness(98%) contrast(101%);
+}
+
+main .jumbotron {
+  background-color: #FFF;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1.title {
+  font-weight: 400;
+}
+
+main {
+  font-size: 1.6em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5em;
+  line-height: 5em;
+  background-color: #F5F5F5;
+}
+
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}
